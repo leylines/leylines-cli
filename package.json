@@ -1,0 +1,35 @@
+{
+  "name": "@leylines/leylines-cli",
+  "version": "0.1.0",
+  "description": "CLI for leylines-geodesy",
+  "main": "leylines-cli.js",
+  "type": "module",
+  "bin": {
+    "@leylines/leylines-cli": "bin/leylines-cli",
+    "leylines-cli": "bin/leylines-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0",
+    "leylines-geodesy": "file:../leylines-geodesy",
+    "listr": "^0.14.3"
+  },
+  "author": "Joerg Roth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leylines/leylines-cli/issues"
+  },
+  "homepage": "https://github.com/leylines/leylines-cli#readme",
+  "devDependencies": {
+    "docdash": "^1.2.0",
+    "eslint": "^7.2.0",
+    "jsdoc": "^3.6.4"
+  },
+  "scripts": {
+    "create-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
+  }
+}
