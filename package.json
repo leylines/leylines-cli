@@ -8,9 +8,6 @@
     "@leylines/leylines-cli": "bin/leylines-cli",
     "leylines-cli": "bin/leylines-cli"
   },
-  "scripts": {
-    "publish-doc": "bash -c \"rm -rf ../leylines-docs/@leylines/leylines-cli && node_modules/.bin/jsdoc -c jsdoc.json  && cd ../leylines-docs && git add . && git commit -m 'Generate Documentation' && git push -f origin HEAD:gh-pages\""
-  },
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
@@ -28,5 +25,8 @@
     "docdash": "^1.2.0",
     "eslint": "^7.2.0",
     "jsdoc": "^3.6.4"
+  },
+  "scripts": {
+    "publish-doc": "bash -c \"rm -rf ../leylines-docs/@leylines/leylines-cli && node_modules/.bin/jsdoc -c buildprocess/jsdoc.json  && cd ../leylines-docs && git add . && git commit -m 'Generate Documentation' && git push -f origin HEAD:gh-pages\""
   }
 }
