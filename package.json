@@ -5,14 +5,13 @@
   "main": "leylines-cli.js",
   "type": "module",
   "bin": {
-    "@leylines/leylines-cli": "bin/leylines-cli",
     "leylines-cli": "bin/leylines-cli"
   },
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
     "inquirer": "^7.1.0",
-    "leylines-geodesy": "file:../leylines-geodesy",
+    "leylines-geodesy": "leylines/leylines-geodesy#master",
     "listr": "^0.14.3"
   },
   "author": "Joerg Roth",
