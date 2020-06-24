@@ -5,7 +5,7 @@
   "main": "leylines-cli.js",
   "type": "module",
   "bin": {
-    "leylines-cli": "bin/leylines-cli"
+    "leylines-cli": "bin/leylines-cli.js"
   },
   "dependencies": {
     "chalk": "^4.0.0",
