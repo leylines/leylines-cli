@@ -1,5 +1,5 @@
 {
-  "name": "leylines-cli",
+  "name": "@leylines/leylines-cli",
   "version": "0.1.0",
   "description": "CLI for leylines-geodesy",
   "main": "leylines-cli.js",
