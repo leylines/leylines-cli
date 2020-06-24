@@ -1,5 +1,5 @@
 {
-  "name": "@leylines/leylines-cli",
+  "name": "leylines-cli",
   "version": "0.1.0",
   "description": "CLI for leylines-geodesy",
   "main": "leylines-cli.js",
@@ -27,6 +27,6 @@
     "jsdoc": "^3.6.4"
   },
   "scripts": {
-    "publish-doc": "bash -c \"rm -rf ../leylines-docs/@leylines/leylines-cli && node_modules/.bin/jsdoc -c buildprocess/jsdoc.json  && cd ../leylines-docs && git add . && git commit -m 'Generate Documentation' && git push -f origin HEAD:gh-pages\""
+    "publish-doc": "bash -c \"rm -rf ../leylines-docs/leylines-cli && node_modules/.bin/jsdoc -c buildprocess/jsdoc.json  && cd ../leylines-docs && git add . && git commit -m 'Generate Documentation' && git push -f origin HEAD:gh-pages\""
   }
 }
