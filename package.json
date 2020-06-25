@@ -15,7 +15,7 @@
     "listr": "^0.14.3"
   },
   "author": "Joerg Roth",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/leylines/leylines-cli/issues"
   },
