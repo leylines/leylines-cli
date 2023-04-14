@@ -1,6 +1,8 @@
 import { circle } from '../lib/circle.js';
 import { greatCircle } from '../lib/greatCircle.js';
-import program from 'commander';
+import { Command } from 'commander';
+
+const program = new Command();
 
 program
   .name('leylines-cli')

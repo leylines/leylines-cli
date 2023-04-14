@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-import program from 'commander';
+import { Command } from 'commander';
 import { parseJsonFile } from '../lib/files.js';
+
+const program = new Command();
 
 parseJsonFile('package.json').then((pkg) => {
   program
